@@ -22,3 +22,11 @@ Status
 - It compiles!
 - The majority of tests pass, but some don't and the reason does not appear to be all that obvious, so I suspect a 
 major bug in my implementation.
+
+Disclaimer
+---
+**Warning:** This is not a valid solution for the 'Praktomat'. Is should eventually pass all the jUnit tests but please 
+do not attempt to upload this as a solution to the 'Praktomat'. The 'Praktomat' does not have a Scala Compiler and thus 
+will not compile or run this code.
+
+Furthermore do not try to build your Java solution based on this implementation, you will fail, Scala is not Java!

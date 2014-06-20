@@ -1,3 +1,5 @@
+import scala.math
+
 /**
  * Created by justusadam on 19/06/14.
  */
@@ -7,7 +9,7 @@ class Paint(name:String, price:Double, noOfCoats:Int, noOfSqMPerLiter:Double) ex
   @Override
   def getMaterialReq(s:Surface):java.lang.Double = {
     val result:java.lang.Double = 2 * noOfCoats * s.getArea / noOfSqMPerLiter
-    if (result % 1 >= limit) scala.math.ceil(result) / 2 else scala.math.floor(result) / 2
+    if (result % 1 >= limit) math.ceil(result) / 2 else math.floor(result) / 2
   }
 
   @Override

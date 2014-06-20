@@ -23,7 +23,7 @@ class Surface(length:Double, width:Double) extends RenovationObject{
       material += ((selectedMaterial.getName, selectedMaterial.getMaterialReq(this)))
     else
       material += ((selectedMaterial.getName,
-        selectedMaterial.getMaterialReq(this)))// + material.apply(selectedMaterial.getName)))
+        selectedMaterial.getMaterialReq(this) + material.apply(selectedMaterial.getName)))
   }
 
 }
